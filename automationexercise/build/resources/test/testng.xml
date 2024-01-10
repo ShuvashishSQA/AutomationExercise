@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nop Commerce Test">
+    <test verbose="2" preserve-order="true" name="Nop Commerce Test">
+
+        <classes>
+            <class name="com.nopstation.pom.test.HomeTest">
+            </class>
+            <class name="com.nopstation.pom.test.CardTest">
+            </class>
+        </classes>
+    </test>
+</suite>
