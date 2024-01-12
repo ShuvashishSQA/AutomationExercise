@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Nop Commerce Test">
-    <test verbose="2" preserve-order="true" name="Nop Commerce Test">
+<suite name="Automation Exercise">
+    <test verbose="2" preserve-order="true" name="Automation Exercise">
 
         <classes>
-            <class name="com.nopstation.pom.test.HomeTest">
+            <class name="com.automationExercise.pom.test.HomeTest">
             </class>
-            <class name="com.nopstation.pom.test.CardTest">
+            <class name="com.automationExercise.pom.test.CardTest">
+            </class>
+            <class name="com.automationExercise.pom.test.RegistrationTest">
+            </class>
+            <class name="com.automationExercise.pom.test.CreateAccountTest">
+            </class>
+            <class name="com.automationExercise.pom.test.PlaceOrderTest">
             </class>
         </classes>
     </test>
